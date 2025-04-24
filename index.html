@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>title</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+  />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="wrapper">
+        <a class="logo" href="">
+          <img src="../img/logo.webp" width="214" height="66" alt="" />
+        </a>
+
+        <div class="top-actions">
+          <a class="telegram" href="">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="40" height="40" rx="20" fill="#27A6E5" />
+              <path
+                d="M28 12.6022L24.9946 28.2923C24.9946 28.2923 24.5741 29.3801 23.4189 28.8584L16.4846 23.3526L16.4524 23.3364C17.3891 22.4654 24.6524 15.7027 24.9698 15.3961C25.4613 14.9214 25.1562 14.6387 24.5856 14.9974L13.8568 22.053L9.71764 20.6108C9.71764 20.6108 9.06626 20.3708 9.00359 19.8491C8.9401 19.3265 9.73908 19.0439 9.73908 19.0439L26.6131 12.1889C26.6131 12.1889 28 11.5579 28 12.6022Z"
+                fill="#FEFEFE"
+              />
+            </svg>
+          </a>
+          <a class="phone" href="">+7 (771-76) 9-62-98</a>
+          <button
+            type="button"
+            class="btn-reset btn"
+            data-modal-open="reserved"
+          >
+            Заказать консультацию
+          </button>
+        </div>
+        <div class="burger__wrapper">
+          <button
+            class="btn-reset burger"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+            data-burger=""
+          >
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__bottom" data-menu>
+    <div class="container">
+      <nav class="nav">
+        <ul class="list-reset nav-list">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#partner">Партнёрская программа</a></li>
+          <li><a href="">Контакты</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+        <div class="mobile-top">
+          <a class="phone" href="">+7 (771-76) 9-62-98</a>
+          <a href="">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="40" height="40" rx="20" fill="#27A6E5" />
+              <path
+                d="M28 12.6022L24.9946 28.2923C24.9946 28.2923 24.5741 29.3801 23.4189 28.8584L16.4846 23.3526L16.4524 23.3364C17.3891 22.4654 24.6524 15.7027 24.9698 15.3961C25.4613 14.9214 25.1562 14.6387 24.5856 14.9974L13.8568 22.053L9.71764 20.6108C9.71764 20.6108 9.06626 20.3708 9.00359 19.8491C8.9401 19.3265 9.73908 19.0439 9.73908 19.0439L26.6131 12.1889C26.6131 12.1889 28 11.5579 28 12.6022Z"
+                fill="#FEFEFE"
+              />
+            </svg>
+          </a>
+        </div>
+        <button
+          type="button"
+          class="btn-reset btn mobile-btn"
+          data-modal-open="reserved"
+        >
+          Заказать консультацию
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="hero__image">
+    <img src="../img/bg-hero.webp" aria-hidden="true" />
+  </div>
+  <div class="container">
+    <div class="hero__wrapper">
+      <div class="hero__content">
+        <h1 class="title">
+          <span>TrustPay —</span> <br />
+          ваш финансовый партнёр для международных операций
+        </h1>
+        <p class="desc">Безопасность, скорость и выгодные условия</p>
+
+        <button type="button" class="btn-reset btn" data-modal-open="reserved">
+          Узнать стоимость
+        </button>
+      </div>
+      <div class="hero__planet">
+        <img src="../img/planet.webp" alt="TrustPay" />
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="futures">
+  <div class="container">
+    <h2 class="futures__title title__section">Преимущества сервиса</h2>
+
+    <div class="futures__items">
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/f1.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">Официальная ликвидность</h3>
+        <p class="item-desc">
+          Деятельность ведётся на основании лицензии ЦБ РФ, что гарантирует
+          абсолютное соответствие всем нормам российского законодательства.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/f2.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">
+          Мгновенное <br />
+          исполнение <br />
+          операций
+        </h3>
+        <p class="item-desc">
+          Интеграция с топовыми мировыми поставщиками ликвидности обеспечивает
+          клиентам лучшие условия для заключения сделок без задержек.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/f3.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">Защита данных и прозрачность</h3>
+        <p class="item-desc">
+          Строгое следование международным стандартам AML/KYC и многоуровневое
+          шифрование исключают риски для средств и персональной информации.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/f4.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">Персональное сопровождение 24/7</h3>
+        <p class="item-desc">
+          Команда экспертов на связи в любое время через чат, email или телефон
+          для решения задач любой сложности.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="about" id="about">
+    <div class="container">
+        <div class="about__wrapper">
+            <div class="lside">
+                <img src="../img/about-img.webp" alt="О нас" loading="lazy" width="690" height="838">
+            </div>
+            <div class="rside">
+                <h2 class="about__title title__section">О нас</h2>
+                <p class="about__desc">Мы — официально зарегистрированный инвестиционный брокер, помогающий частным клиентам и бизнесу безопасно взаимодействовать с цифровыми активами. Наша лицензия, прозрачные условия и сотрудничество с разными поставщиками услуг гарантируют защиту ваших интересов.</p>
+                <div class="about__items">
+                    <div class="about__item">
+                        <div class="icon">
+                            <img src="../img/icons/check-img.webp" width="60" height="60" loading="lazy" aria-hidden="true">
+                        </div>
+                        <div class="desc">Легальность и контроль</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="icon">
+                            <img src="../img/icons/check-img.webp" width="60" height="60" loading="lazy" aria-hidden="true">
+                        </div>
+                        <div class="desc">Доступ к глобальной ликвидности</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="icon">
+                            <img src="../img/icons/check-img.webp" width="60" height="60" loading="lazy" aria-hidden="true">
+                        </div>
+                        <div class="desc">Безопасность — наш приоритет</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="icon">
+                            <img src="../img/icons/check-img.webp" width="60" height="60" loading="lazy" aria-hidden="true">
+                        </div>
+                        <div class="desc">Прозрачный курс</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="icon">
+                            <img src="../img/icons/check-img.webp" width="60" height="60" loading="lazy" aria-hidden="true">
+                        </div>
+                        <div class="desc">Выставление валютного платежа на следующий день, после проведения оплаты</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <section class="trustpay">
+  <div class="container">
+    <h2 class="title__section trustpay__title">
+      Почему <span>TrustPay?</span>
+    </h2>
+
+    <div class="trustpay__row double">
+      <div class="block-image">
+        <img src="../img/trust-img.webp" width="345" height="302" alt="" />
+      </div>
+      <div class="block-item">
+        <div class="icon">
+          <img src="../img/icons/t1.webp" width="140" height="140" alt="" />
+        </div>
+        <div class="block-item-title">Глобальная финансовая инфраструктура</div>
+        <div class="block-item-desc">
+          Десятки готовых счётов юрлиц в ключевых банках мира — открыто у наших
+          компаний.
+        </div>
+      </div>
+    </div>
+    <div class="trustpay__row tripple">
+      <div class="block-item">
+        <div class="icon">
+          <img src="../img/icons/t2.webp" width="140" height="140" alt="" />
+        </div>
+        <div class="block-item-title">Свобода платежей</div>
+        <div class="block-item-desc">
+          Проводим транзакции в санкционные страны, где другие платёжные системы
+          блокируют операции.
+        </div>
+      </div>
+      <div class="block-item">
+        <div class="icon">
+          <img src="../img/icons/t3.webp" width="140" height="140" alt="" />
+        </div>
+        <div class="block-item-title">Клиринговые расчёты</div>
+        <div class="block-item-desc">
+          Оптимизируем транзакционные издержки через гибкие схемы
+          взаиморасчётов.
+        </div>
+      </div>
+      <div class="block-image">
+        <img src="../img/trsut-img-2.webp" width="345" height="302" alt="" />
+      </div>
+    </div>
+
+    <button type="button" class="btn-reset btn trustpay__btn">
+      Получить консультацию
+    </button>
+  </div>
+</section>
+
+      <section class="services" id="services">
+  <div class="container">
+    <h2 class="title__section services__title">Наши услуги</h2>
+    <div class="services__items">
+      <div class="item solo-item">
+        <div class="icon">
+          <img src="../img/icons/s1.webp" width="127" height="127" alt="" />
+        </div>
+        <div class="title">Операции с USDT и криптоактивами</div>
+        <div class="desc">
+          Проводите моментальные и безопасные сделки с криптовалютой
+          через сертифицированного брокера.
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="item">
+          <div class="top">
+            <div class="icon">
+              <img src="../img/icons/s2.webp" alt="" />
+            </div>
+            <div class="title">Глубокая ликвидность</div>
+          </div>
+          <div class="desc">
+            Работаем с топовыми провайдерами, обеспечивая крупные объёмы сделок
+            для корпораций и инвесторов.
+          </div>
+        </div>
+        <div class="item item--black">
+          <div class="top">
+            <div class="icon">
+              <img src="../img/icons/s3.webp" alt="" />
+            </div>
+            <div class="title">Индивидуальный брокеридж</div>
+          </div>
+          <div class="desc">
+            Персональные решения для бизнеса и частных лиц: доступ к цифровым
+            активам, включая токенизированные активы и ценные бумаги.
+          </div>
+          <button
+            type="button"
+            class="btn-reset btn s-btn"
+            data-open-modal="reserved"
+          >
+            Получить консультацию
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="need">
+  <div class="container">
+    <div class="title__section need__title">Для кого?</div>
+
+    <div class="need__items">
+      <div class="item">
+        <div class="icon">
+          <img
+            src="../img/icons/check-img.webp"
+            width="60"
+            height="60"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div class="title">Импортёры:</div>
+          <div class="desc">
+            Оплата иностранным поставщикам по действующим контрактам.
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="title">Экспортёры:</div>
+          <div class="desc">Возврат валютной выручки без задержек.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img
+            src="../img/icons/check-img.webp"
+            width="60"
+            height="60"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div class="title">Экспедиторы:</div>
+          <div class="desc">
+            Оплата фрахта и услуг транспортных компаний в любой валюте.
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="title">IT компании:</div>
+          <div class="desc">оплата ПО и маркетинговых услуг.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img
+            src="../img/icons/check-img.webp"
+            width="60"
+            height="60"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <div class="title">Производители:</div>
+          <div class="desc">Легальные платежи за оборудование и сырьё.</div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="title">Дистрибьюторы:</div>
+          <div class="desc">
+            Регулярные расчёты с поставщиками по всему миру.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="partner" id="partner">
+  <div class="container">
+    <div class="partner__top">
+      <div class="title__section partner__title">
+        Партнёрская программа <br />
+        для агентов
+      </div>
+      <div class="partner__desc">
+        Станьте партнёром и продвигайте наши услуги на выгодных условиях:
+      </div>
+    </div>
+
+    <div class="partner__inner">
+      <div class="image">
+        <img src="../img/partner-img.webp" width="467" height="340" alt="" />
+      </div>
+      <div class="content">
+        <div class="item">
+          <div class="left">
+            <div class="number">/01</div>
+            <div class="title">Лёгкий старт</div>
+          </div>
+          <div class="desc">
+            Готовая модель работы: базовые условия и инструменты
+            для взаимодействия с клиентами.
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left">
+            <div class="number">/02</div>
+            <div class="title">Гибкие тарифы</div>
+          </div>
+          <div class="desc">
+            Устанавливайте свою наценку, согласовывайте с клиентами — мы берём
+            на себя исполнение заявок.
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left">
+            <div class="number">/03</div>
+            <div class="title">
+              Вывод средств <br />
+              в любом формате
+            </div>
+          </div>
+          <div class="desc">
+            Получайте выплаты через банк, криптовалюту или другой удобный
+            для вас способ.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn-reset btn partner__btn"
+      data-modal-open="reserved"
+    >
+      Стать партнёром
+    </button>
+  </div>
+</section>
+ <section class="safe">
+  <div class="container">
+    <div class="wrapper">
+      <div class="content">
+        <div class="title">Безопасность</div>
+        <ul class="list-reset list">
+          <li>
+            Соблюдаем стандарты AML/KYC и применяем актуальные методы проверки
+            пользователей.
+          </li>
+          <li>
+            Операции проводятся через зашифрованные каналы с использованием
+            передовых алгоритмов безопасности.
+          </li>
+          <li>
+            Деятельность сертифицирована и соответствует требованиям
+            международных регуляторов.
+          </li>
+        </ul>
+      </div>
+      <div class="img">
+        <img src="../img/safe-img.webp" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="limit">
+  <div class="container">
+    <div class="limit__top">
+      <div class="title__section title">
+        Без лимитов <br />
+        и с <span>выгодными тарифами</span>
+      </div>
+      <div class="limit__desc">
+        Совершайте расчёты за товары и услуги оперативно и без сложностей
+      </div>
+    </div>
+
+    <div class="limit__inner">
+      <div class="item">
+        <div class="title">Универсальные варианты расчётов</div>
+        <div class="desc">
+          — доступны безналичные переводы по внешнеторговым соглашениям, а также
+          транзакции в криптовалюте. Для каждого клиента подбираем персональную
+          схему оплаты, учитывающую специфику сделки и ваши предпочтения.
+        </div>
+      </div>
+      <div class="item">
+        <div class="title">Правовое сопровождение</div>
+        <div class="desc">
+          — легальное проведение рублёвых платежей через агентский договор
+          или контракт на поставку с полным документооборотом. Подготавливаем
+          необходимые документы для бухгалтерской отчётности и прохождения
+          таможенных процедур.
+        </div>
+      </div>
+      <div class="item">
+        <div class="title">Выгодный обмен</div>
+        <div class="desc">
+          — конвертация средств осуществляется по реальному рыночному курсу,
+          актуальному на момент выполнения транзакции. Это исключает скрытые
+          надбавки и обеспечивает предсказуемость расчётов.
+        </div>
+      </div>
+      <div class="item">
+        <div class="title">Гибкие комиссии</div>
+        <div class="desc">
+          — ставка варьируется от 1,7% и зависит от трёх ключевых параметров:
+          общей суммы операции, юрисдикции платежа и валюты, указанной
+          в договоре с контрагентом.
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-text">
+      Все этапы согласовываются заранее — вы получаете полный контроль
+      над расходами и гарантию соблюдения законодательных требований.
+    </div>
+  </div>
+</section>
+ <section class="docs">
+  <div class="container">
+    <h2 class="docs__title title__section">Документооборот</h2>
+
+    <div class="docs__items">
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/d1.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">Официальная ликвидность</h3>
+        <p class="item-desc">
+          Деятельность ведётся на основании лицензии ЦБ РФ, что гарантирует
+          абсолютное соответствие всем нормам российского законодательства.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/d2.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">
+          Мгновенное <br />
+          исполнение <br />
+          операций
+        </h3>
+        <p class="item-desc">
+          Интеграция с топовыми мировыми поставщиками ликвидности обеспечивает
+          клиентам лучшие условия для заключения сделок без задержек.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/d3.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">Защита данных и прозрачность</h3>
+        <p class="item-desc">
+          Строгое следование международным стандартам AML/KYC и многоуровневое
+          шифрование исключают риски для средств и персональной информации.
+        </p>
+      </div>
+      <div class="item">
+        <div class="icon">
+          <img src="../img/icons/d4.webp" width="105" height="105" alt="" />
+        </div>
+        <h3 class="item-title">Персональное сопровождение 24/7</h3>
+        <p class="item-desc">
+          Команда экспертов на связи в любое время через чат, email или телефон
+          для решения задач любой сложности.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="faq">
+  <div class="container">
+    <div class="title__section faq__title">Ваши вопросы</div>
+    <div class="faq__items">
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__head">
+          <div class="title">
+            За какие контракты вы можете проводить оплату?
+          </div>
+          <div class="toggler">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.33325 19.9997H31.6666M19.9999 8.33301V31.6663"
+                stroke="url(#paint0_linear_2001_697)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2001_697"
+                  x1="8.33325"
+                  y1="8.33301"
+                  x2="28.8014"
+                  y2="33.9552"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#19511D" />
+                  <stop offset="1" stop-color="#3B7E40" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="content">
+            Для проведения операции необходим агентский договор с нашей компанией, договор поставки с вашим контрагентом и выставленный инвойс. Все документы оформляются в соответствии с требованиями валютного контроля.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="callback">
+  <div class="container">
+    <div class="wrapper">
+      <div class="content">
+        <div class="title__section title">Оставьте заявку</div>
+        <div class="desc">
+          поможем с оплатой иностранных счётов, фрахта или возвратом валютной
+          выручки!
+        </div>
+
+        <form action="" class="cb-form">
+          <div class="cb-form-row">
+            <input type="text" placeholder="Имя*" />
+          </div>
+          <div class="cb-form-row">
+            <input type="text" placeholder="Телефон*" />
+          </div>
+          <div class="cb-form-row">
+            <input type="text" placeholder="Telegram" />
+          </div>
+
+          <div class="policy policy-block">
+            <input type="checkbox" class="custom-checkbox" />
+            <span
+              >Оставляя заявку вы соглашаетесь с политикой
+              конфиденциальности</span
+            >
+          </div>
+
+          <button class="btn-reset btn cb-form-btn">Стать партнером</button>
+        </form>
+      </div>
+      <div class="image">
+        <img
+          src="../img/msg-img.webp"
+          width="475"
+          height="482"
+          aria-hidden="true"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="t-block">
+  <div class="container">
+    <div class="wrapper">
+      <div class="img">
+        <img
+          src="../img/static-img.webp"
+          loading="lozy"
+          width="467"
+          height="467"
+          alt=""
+        />
+      </div>
+      <h2 class="title__section title">
+        <span>TrustPay:</span>
+        платежи по всему миру — быстро, безопасно, без ограничений.
+      </h2>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="wrapper">
+      <a class="footer__logo" href="">
+        <img src="../img/logo-footer.png" width="117" height="128" alt="" />
+      </a>
+      <div class="actions">
+        <a href="tel:+77717696298" class="phone">+7 (771-76) 9-62-98</a>
+        <a href="" class="telegram">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="40" height="40" rx="20" fill="#27A6E5" />
+            <path
+              d="M28 12.6022L24.9946 28.2923C24.9946 28.2923 24.5741 29.3801 23.4189 28.8584L16.4846 23.3526L16.4524 23.3364C17.3891 22.4654 24.6524 15.7027 24.9698 15.3961C25.4613 14.9214 25.1562 14.6387 24.5856 14.9974L13.8568 22.053L9.71764 20.6108C9.71764 20.6108 9.06626 20.3708 9.00359 19.8491C8.9401 19.3265 9.73908 19.0439 9.73908 19.0439L26.6131 12.1889C26.6131 12.1889 28 11.5579 28 12.6022Z"
+              fill="#FEFEFE"
+            />
+          </svg>
+        </a>
+        <button class="btn-reset btn footer__btn" data-modal-open="reserved">
+          Заказать консультацию
+        </button>
+      </div>
+      <div class="links">
+        <a href="">Политика конфиденциальности</a>
+        <a href="">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="reserved">
+  <div class="modal__container">
+    <div class="modal__close">
+      <svg
+        style="pointer-events: none"
+        width="24"
+        height="25"
+        viewBox="0 0 24 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18 6.5L6 18.5M6 6.5L18 18.5"
+          stroke="white"
+          stroke-opacity="0.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+
+    <div class="modal__content">
+      <div class="modal__title title__section">
+        Расскажем все про международные инвестиции
+      </div>
+
+      <form action="" class="modal-form">
+        <div class="modal-form-row">
+          <input type="text" placeholder="Имя и фамилия" />
+          <input type="text" placeholder="Телефон" />
+        </div>
+        <div class="modal-form-row">
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Компания" />
+        </div>
+        <div class="modal-form-row">
+          <input type="text" placeholder="Сообщение" />
+        </div>
+
+        <div class="policy">
+          <input type="checkbox" />
+          <span
+            >Оставляя заявку вы соглашаетесь с политикой
+            конфиденциальности</span
+          >
+        </div>
+
+        <button type="button" class="btn-reset btn modal-btn">
+          Оставьте заявку
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-success" id="reserved">
+  <div class="modal__container">
+    <div class="modal__close">
+      <svg
+        style="pointer-events: none"
+        width="24"
+        height="25"
+        viewBox="0 0 24 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18 6.5L6 18.5M6 6.5L18 18.5"
+          stroke="white"
+          stroke-opacity="0.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+
+    <div class="modal__content">
+      <div class="left">
+        <div class="modal__title">Спасибо за заявку</div>
+        <div class="desc">В самое ближайшее время мы свяжемся с вами</div>
+      </div>
+      <div class="right">
+        <img src="../img/success-modal.webp" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
