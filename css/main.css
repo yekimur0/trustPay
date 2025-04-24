@@ -979,7 +979,7 @@ section {
   background: linear-gradient(135deg, #19511d 0%, #3b7e40 100%);
   border-radius: 16px;
   padding: 20px;
-  height: 420px;
+  height: 100%;
 }
 @media (max-width: 992px) {
   .docs .item {
@@ -990,7 +990,7 @@ section {
   -webkit-transform: translateY(40px);
   -ms-transform: translateY(40px);
   transform: translateY(40px);
-  height: 440px;
+  height: 100%;
 }
 @media (max-width: 1140px) {
   .docs .item:nth-child(even) {
